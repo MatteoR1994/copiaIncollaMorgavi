@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Raleway:ital,wght@0,300;0,600;1,300&display=swap');
+
+/*
+    font-family: 'Playfair Display', serif; // H1
+
+    font-family: 'Raleway', sans-serif; // BODY
+*/
+
+body {
+    margin: 0px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.main-container {
+    border: 1px solid yellowgreen; 
+    width: 70%; 
+    left: 15%;
+    margin: auto;
+}
+
+header {
+    height: 260px;
+    /* border: 1px solid black; */
+}
+
+.header-title {
+    margin-top: 85px;
+}
+
+.nav-menu {
+    height: 43.15px;
+    position: relative;
+    /* border: 1px solid tomato; */
+}
+
+.menu-item {
+    color: #4a4a4a;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-right: 38px;
+    padding-bottom: 13px;
+    padding-left: 38px;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    color: #83e2ec;
+}
+
+.menu-item-separator {
+    height: 2px;
+    background-color: #dfdfdf;
+    width: 37px;
+    border: 0px;
+    display: inline-block;
+}
+
+.content-separator {
+    height: 1px;
+    background-color: black;
+    width: 40px;
+    border: 0px;
+}
+
+.content-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.content-description-container {
+    border: 1px solid tomato;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+}
+
+.content-image-description {
+    margin-top: 100px;
+    border: 1px solid brown;
+}
+
+.content-column-container {
+    margin-top: 80px; 
+    border: 1px solid orange; 
+    min-height: 800px; 
+    height: 100%; 
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.content-column-container-col1 {
+    width: 30%;
+    position: absolute;
+    left: 1.6%;
+    min-height: 800px; 
+    height: 100%;
+}
+
+.content-column-container-col2 {
+    width: 30%;
+    position: relative;
+    top: 0px;
+    left: 34.8%;
+    min-height: 800px; 
+    height: 100%;
+}
+
+.content-column-container-col3 {
+    width: 30%;
+    position: relative;
+    top: 0px;
+    left: 65.8%;
+    min-height: 800px; 
+    height: 100%;
+}
+
+.content-column-container-col-text-container {
+    border: 1px solid #dbdbdb;
+    padding: 25px;
+    min-height: 374px;
+}
+
+h3 {
+    font-size: 12px;
+    color: #252525;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.column-content-separator {
+    height: 1px;
+    background-color: black;
+    border: 0px;
+}
+
+.colum-content-text {
+    text-align: left; 
+    line-height: 25px;
+}
