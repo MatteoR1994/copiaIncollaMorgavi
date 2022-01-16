@@ -15,8 +15,7 @@ body {
     text-align: center;
 }
 
-.main-container {
-    border: 1px solid yellowgreen; 
+.main-container { 
     width: 70%; 
     left: 15%;
     margin: auto;
@@ -24,7 +23,6 @@ body {
 
 header {
     height: 260px;
-    /* border: 1px solid black; */
 }
 
 .header-title {
@@ -34,7 +32,6 @@ header {
 .nav-menu {
     height: 43.15px;
     position: relative;
-    /* border: 1px solid tomato; */
 }
 
 .menu-item {
@@ -65,7 +62,6 @@ header {
 
 .content-separator {
     height: 1px;
-    background-color: black;
     width: 40px;
     border: 0px;
 }
@@ -80,7 +76,6 @@ header {
 }
 
 .content-description-container {
-    border: 1px solid tomato;
     width: 50%;
     margin-top: 40px;
     margin-left: auto;
@@ -90,12 +85,10 @@ header {
 
 .content-image-description {
     margin-top: 100px;
-    border: 1px solid brown;
 }
 
 .content-column-container {
-    margin-top: 80px; 
-    border: 1px solid orange; 
+    margin-top: 80px;
     min-height: 800px; 
     height: 100%; 
     margin-bottom: 40px;
@@ -150,4 +143,69 @@ h3 {
 .colum-content-text {
     text-align: left; 
     line-height: 25px;
+}
+
+.footer-separator {
+    min-height: 1px;
+    background-color: black;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+footer {
+    min-height: 10%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.footer-social-copyright-container {
+    position: relative;
+    min-height: 10%;
+    height: 100%;
+}
+
+.footer-social-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    min-height: 10%;
+    height: 100%;
+}
+
+.footer-copyright-container {
+    position: relative;
+    top: 0px;
+    left: 20%;
+    width: 80%;
+    min-height: 10%;
+    height: 100%;
+}
+
+.copyright-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.developer-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.developer-name a {
+    text-decoration: none;
+    color: #83e2ec;
+}
+
+.developer-name a:hover {
+    text-decoration: underline;
+    color: #83e2ec;
+}
+
+.footer-social-container a {
+    text-decoration: none;
+    padding: 10px;
 }
